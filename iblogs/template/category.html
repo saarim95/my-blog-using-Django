@@ -1,0 +1,16 @@
+{%extends 'base.html'%}
+
+{%block title%}saarim blog{%endblock%}
+
+{%block content%}
+
+<div class="container-custom">
+
+	<h3>{{cat.title}}</h3>
+	<div class="img-container">
+		<img src="/media/{{cat.image}}" class="responsive-img"style="max-height: 400px;width: 80%; object-fit:cover;" alt="">
+	</div>
+	
+</div>
+
+{%endblock%}
